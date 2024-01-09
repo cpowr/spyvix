@@ -16,7 +16,8 @@ We use a 15-second dataset between January 1, 2019, and December 31, 2020 of the
 ## 2. Data Analysis
 We performed our data analysis using `Python 3.8.1`  on `Jupter Notebook`
  
- * **Required packages** 
+ * **Required packages**
+   
       Main Python packages are: 
         - `numpy`
         - `pandas`
