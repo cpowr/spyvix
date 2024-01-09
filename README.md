@@ -1,20 +1,20 @@
 ## 1. Introduction
 In this project, we are seeking answers to the question: 
 
-* Does the incorporation of the CBOE Volatility (VIX) index improve performance of Bollinger Band based mean reversion trading strategy? 
+* Does the incorporation of the CBOE Volatility (VIX) index improve the performance of a Bollinger Band based mean reversion trading strategy? 
 
 To answer the question, we propose two methodologies. 
 
 1. The first explores a multivariate time series: the mean-reverting time series of historical intraday equity (ETF) prices and the intraday VIX index values. 
-    - If the linear combination of the two time series are cointegrated, we will explore further using Vector Error Correction Model (VECM). 
-    - If no cointegration relationship is found, we will consider lagged data using Vector AutoRegression (VAR) Model. 
+    - If the linear combination of the two time series are cointegrated, we explore further using Vector Error Correction Model (VECM). 
+    - If no cointegration relationship is found, we consider lagged data using Vector AutoRegression (VAR) Model. 
          
-2. Secondly, we will build what we call a cointegrated Bollinger band using the linearly combined data.
+2. Secondly, we build "cointegrated Bollinger bands" using the linearly combined data.
 
- We used 2-year 15-second dataset between January 1, 2019, and December 31, 2020 of the SPDR S&P 500 (SPY) ETF and the Chicago Board of Exchange (CBOE) Volatility (VIX) Index from Refinitiv DataScope.
+We use a 15-second dataset between January 1, 2019, and December 31, 2020 of the SPDR S&P 500 (SPY) ETF and the Chicago Board of Exchange (CBOE) Volatility (VIX) Index from Refinitiv DataScope.
 
 ## 2. Data Analysis
-We did our data analysis using `Python 3.8.1`  on `Jupter Notebook`
+We performed our data analysis using `Python 3.8.1`  on `Jupter Notebook`
  
  * **Required packages** 
       Main Python packages are: 
