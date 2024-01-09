@@ -17,15 +17,14 @@ To answer the question, we propose two methodologies.
 We did our data analysis using `Python 3.8.1`  on `Jupter Notebook`
  
  * **Required packages** 
-  
-      Python Packages used are: 
-
+      Main Python packages are: 
         - `numpy`
-        - `Pandas`
-        - `Matlabplot`
-        - `Scklearn`
-        - `Seaborn`
-        - 
+        - `pandas`
+        - `matplotlib`
+        - `sklearn`
+        - `statsmodels`
+        - `pycaret` 
+   
 ## 3. GitHub Files
 * Analysis_xxxxxx.ipynb
     - Jupyter Notebook with python codes used in our data analysis.
